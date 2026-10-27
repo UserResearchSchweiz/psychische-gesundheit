@@ -10,7 +10,7 @@ Voraussetzung: Node.js 22 oder neuer. Eine Installation von Paketen ist nicht n�
 npm run dev
 ```
 
-Öffnen: http://localhost:5173. Nach Änderungen die Seite neu laden. Ein anderer Port lässt sich mit `PORT=5174 npm run dev` wählen.
+Öffnen: http://localhost:5173. Änderungen an HTML, CSS, JavaScript und lokalen Assets laden die Seite automatisch neu. Dabei werden flüchtige Auswahlen zurückgesetzt. Automatisches Neuladen ist nur im Entwicklungsserver aktiv, nicht in der Vorschau oder auf GitHub Pages. Ein anderer Port lässt sich mit `PORT=5174 npm run dev` wählen.
 
 ## Aufbau
 
