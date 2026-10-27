@@ -1,0 +1,13 @@
+/* Nur Grundlesbarkeit und Tastaturbedienbarkeit, noch kein visuelles Konzept. */
+body { font-family: system-ui, sans-serif; line-height: 1.5; margin: 2rem auto; padding: 0 1rem; max-width: 58rem; }
+header, main, footer { margin-block: 2rem; }
+header ol { display: flex; flex-wrap: wrap; gap: .5rem 1rem; list-style: none; padding: 0; }
+[aria-current="step"] { font-weight: bold; }
+fieldset label { display: block; padding-block: .5rem; }
+button, input, summary { cursor: pointer; }
+button { font: inherit; padding: .4rem .7rem; }
+main nav { display: flex; gap: 1rem; margin-block: 2rem; }
+li { margin-block: .4rem; }
+:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+h1:focus { outline: none; }
+footer { font-size: .875rem; }
